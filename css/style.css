@@ -114,7 +114,7 @@ body {
   background: #ddd;
   font-family: "Helvetica Neue", "Helvetica", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
   font-size: 100%;
-  color: #817c7c;
+  color: #5a5e5f;
   line-height: 1.5;
 }
 small {
@@ -136,7 +136,7 @@ sub {
 }
 a {
   text-decoration: none;
-  color: #817c7c;
+  color: #5a5e5f;
 }
 a:hover,
 a:focus {
@@ -367,7 +367,7 @@ body >header {
   width: 100%;
   -webkit-box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
   box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
-  background: #ea6753;
+  background: #1ec2de;
   color: #fff;
   padding: 1em 0 0.8em;
 }
@@ -521,8 +521,8 @@ header nav ul li a {
   }
 }
 header nav ul li a:hover {
-  background: #dd2c11;
-  color: #e9cd4c;
+  background: #00c0e3;
+  color: #c0392b;
 }
 .shownav {
   max-height: 40em;
@@ -597,7 +597,7 @@ header nav ul li a:hover {
 }
 #main section.post a {
   display: block;
-  border-left: 0.5em solid #ccc;
+  border-left: 0.5em solid #1dbbd6;
   -webkit-transition: border-left 0.45s;
   -moz-transition: border-left 0.45s;
   -o-transition: border-left 0.45s;
@@ -611,17 +611,20 @@ header nav ul li a:hover {
   }
 }
 #main section.post a:hover {
-  border-left: 0.5em solid #ea6753;
+  border-left: 0.5em solid #c0392b;
+}
+#main section.post a:hover h1 {
+  color: #c0392b;
 }
 #main section.post a h1 {
-  color: #2ca6cb;
+  color: #1dbbd6;
   line-height: 2;
 }
 #main section.post a p {
-  color: #817c7c;
+  color: #5a5e5f;
 }
 #main section.post a time {
-  color: #817c7c;
+  color: #5a5e5f;
   display: block;
   margin: 0.5em 0;
   font-size: 0.5em;
@@ -640,11 +643,11 @@ header nav ul li a:hover {
   padding: 0.5em 1em;
 }
 #page-nav a {
-  color: #2ca6cb;
+  color: #1dbbd6;
 }
 #page-nav a:hover {
   background: #ccc;
-  color: #ea6753;
+  color: #c0392b;
 }
 #page-nav .prev {
   float: left;
@@ -656,7 +659,7 @@ header nav ul li a:hover {
   transition: border-left 0.5s;
 }
 #page-nav .prev:hover {
-  border-left: 0.5em solid #ea6753;
+  border-left: 0.5em solid #1dbbd6;
 }
 #page-nav .next {
   float: right;
@@ -670,11 +673,11 @@ header nav ul li a:hover {
   }
 }
 #page-nav .current {
-  color: #b8b8b8;
+  color: #ad3327;
   font-weight: bold;
 }
 #page-nav .space {
-  color: #2ca6cb;
+  color: #1dbbd6;
 }
 /* page layout */
 @media only screen and (min-width: 1024px) {
@@ -719,11 +722,11 @@ header nav ul li a:hover {
 }
 .archive-title h2 {
   width: 90%;
-  color: #2ca6cb;
+  color: #1dbbd6;
   font-size: 120%;
 }
 .archive-title a {
-  color: #2ca6cb;
+  color: #1dbbd6;
   -webkit-transition: color 0.5s;
   -moz-transition: color 0.5s;
   -o-transition: color 0.5s;
@@ -731,15 +734,12 @@ header nav ul li a:hover {
   transition: color 0.5s;
 }
 .archive-title a:hover {
-  color: #ea6753;
+  color: #23defe;
   -webkit-transition: color 0.5s;
   -moz-transition: color 0.5s;
   -o-transition: color 0.5s;
   -ms-transition: color 0.5s;
   transition: color 0.5s;
-}
-.current {
-  color: #ea6753 !important;
 }
 @media only screen and (min-width: 768px) {
   .archive-part {
@@ -784,11 +784,11 @@ header nav ul li a:hover {
 }
 .post a,
 .page a {
-  color: #2ca6cb;
+  color: #1dbbd6;
 }
 .post a:hover,
 .page a:hover {
-  color: #ea6753;
+  color: #c0392b;
 }
 @media only screen and (min-width: 768px) {
   article header.article-info {
@@ -803,7 +803,7 @@ article header.article-info >h1 {
   word-break: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  border-left: 5px solid #ea6753;
+  border-left: 5px solid #1dbbd6;
 }
 @media only screen and (min-width: 1024px) {
   article header.article-info >h1 {
@@ -877,7 +877,7 @@ article .article-content h3,
 article .article-content h4,
 article .article-content h5,
 article .article-content h6 {
-  color: #333;
+  color: #34495e;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 0.3em 0;
@@ -905,7 +905,8 @@ article .article-content abbr {
   border-bottom: 1px dotted;
 }
 article .article-content blockquote {
-  border-left: 0.2em solid #ea6753;
+  color: #e74c3c;
+  border-left: 0.2em solid #1dbbd6;
   margin: 0.65em 0 0.65em 4%;
   padding-left: 1%;
   line-height: 1.5;
@@ -952,7 +953,7 @@ article .article-content strong code,
 article .article-content em code {
   font-family: Monaco, Menlo, Consolas, Courier New, monospace;
   background: #eee;
-  color: #747070;
+  color: #515556;
   border: 1px solid #d6d6d6;
   padding: 0 5px;
   margin: 0 2px;
@@ -1093,7 +1094,7 @@ footer.article-footer {
   font-size: 100%;
   font-family: "FontAwesome";
   text-align: center;
-  color: #817c7c;
+  color: #5a5e5f;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 1.5em;
@@ -1208,7 +1209,7 @@ footer.article-footer {
   color: #ccc;
 }
 .qrclose:hover:before {
-  color: #2ca6cb !important;
+  color: #1dbbd6 !important;
 }
 .overlay {
   display: none !important;
@@ -1268,7 +1269,7 @@ footer.article-footer {
 }
 .article-tags a:hover {
   color: #fff;
-  background: #2ca6cb;
+  background: #1dbbd6;
 }
 .article-categories {
   color: #d6d6d6;
@@ -1286,7 +1287,7 @@ footer.article-footer {
 }
 .article-category-link:hover {
   color: #fff !important;
-  background: #2ca6cb;
+  background: #1dbbd6;
 }
 .article-nav {
   padding: 0 10%;
@@ -1305,7 +1306,7 @@ footer.article-footer {
 }
 .article-nav .prev a:hover,
 .article-nav .next a:hover {
-  background: #2ca6cb;
+  background: #1dbbd6;
   color: #fff;
 }
 .article-nav .prev {
@@ -1398,7 +1399,7 @@ section.comment {
   overflow: hidden;
   line-height: 1.5em;
   font-size: 1em;
-  color: #333;
+  color: #34495e;
   opacity: 0.6;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
   filter: alpha(opacity=60);
@@ -1410,7 +1411,7 @@ section.comment {
 }
 #toc.toc-aside strong {
   padding: 0.3em 0;
-  color: #817c7c;
+  color: #5a5e5f;
 }
 #toc.toc-aside:hover {
   -webkit-transition: opacity 0.3s ease-out;
@@ -1430,7 +1431,7 @@ section.comment {
   transition: color 1s ease-out;
 }
 #toc.toc-aside a:hover {
-  color: #ea6753;
+  color: #1dbbd6;
   -webkit-transition: color 0.3s ease-out;
   -moz-transition: color 0.3s ease-out;
   -o-transition: color 0.3s ease-out;
@@ -1438,7 +1439,7 @@ section.comment {
   transition: color 0.3s ease-out;
 }
 .active {
-  color: #ea6753 !important;
+  color: #1dbbd6 !important;
 }
 .openaside {
   display: none;
@@ -1452,7 +1453,7 @@ section.comment {
   border: 1px solid #fff;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  background: #ea6753;
+  background: #e69411;
   padding: 0.2em 0.55em;
 }
 .openaside a::before {
@@ -1465,10 +1466,10 @@ section.comment {
   display: none;
 }
 .closeaside a {
-  color: #ea6753;
+  color: #e69411;
 }
 .closeaside a:hover {
-  color: #2ca6cb;
+  color: #1dbbd6;
 }
 .closeaside a::before {
   font-family: "FontAwesome";
@@ -1499,15 +1500,15 @@ section.comment {
 }
 .asidetitle {
   font-size: 1.1em;
-  color: #2ca6cb;
+  color: #e69411;
   padding: 0 0 0.3125em 0;
   border-bottom: 0.1875em solid #ccc;
 }
 .asidetitle a {
-  color: #2ca6cb;
+  color: #1dbbd6;
 }
 .asidetitle a:hover {
-  color: #ea6753;
+  color: #c0392b;
   -webkit-transition: color 0.5s;
   -moz-transition: color 0.5s;
   -o-transition: color 0.5s;
@@ -1532,11 +1533,12 @@ section.comment {
   border-bottom: 1px solid #ccc;
 }
 .categorieslist li a {
+  color: #1dbbd6;
   display: block;
   padding: 0.5em 5%;
 }
 .categorieslist li a:hover {
-  color: #ea6753;
+  color: #c0392b;
 }
 .tagslist {
   margin: 1em 0 0;
@@ -1562,17 +1564,18 @@ section.comment {
   float: left;
 }
 .tagslist ul li a {
+  color: #fff;
   display: block;
   margin: 0.3125em;
   padding: 0.125em 0.3125em;
-  background: #dbdbdb;
+  background: #1dbbd6;
 }
 .tagslist ul li a:hover {
-  color: #ea6753;
-  background: #e6e6e6;
+  color: #c0392b;
+  background: #23defe;
 }
 .rsspart {
-  background: #ea6753;
+  background: #1dbbd6;
   width: 100%;
 }
 @media only screen and (min-width: 768px) {
@@ -1596,8 +1599,8 @@ section.comment {
   text-align: center;
 }
 .rsspart a:hover {
-  color: #ea6753;
-  background: #fafafa;
+  color: #c0392b;
+  background: #23defe;
 }
 .rsspart a::before {
   font-family: "FontAwesome";
@@ -1628,7 +1631,7 @@ section.comment {
   padding: 0.5em;
 }
 .archiveslist li a:hover {
-  color: #ea6753;
+  color: #c0392b;
   -webkit-transition: color 0.25s;
   -moz-transition: color 0.25s;
   -o-transition: color 0.25s;
@@ -1676,7 +1679,7 @@ section.comment {
   float: left;
 }
 .tagcloudlist .tagcloudlist a:hover {
-  color: #ea6753;
+  color: #c0392b;
   -webkit-transition: color 0.25s;
   -moz-transition: color 0.25s;
   -o-transition: color 0.25s;
@@ -1710,7 +1713,7 @@ section.comment {
   padding: 0 3%;
 }
 .linkslist ul a:hover {
-  color: #ea6753;
+  color: #c0392b;
   -webkit-transition: color 0.25s;
   -moz-transition: color 0.25s;
   -o-transition: color 0.25s;
@@ -1834,13 +1837,12 @@ footer {
   }
 }
 .social-font a:hover:before {
-  color: #2ca6cb;
+  color: #1dbbd6;
 }
 .social-font a[title="weibo"]::before,
 .social-font a[title="twitter"]::before,
 .social-font a[title="github"]::before,
-.social-font a[title="facebook"]::before,
-.social-font a[title="linkedin"]::before {
+.social-font a[title="facebook"]::before {
   font-family: "FontAwesome";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1857,9 +1859,6 @@ footer {
 .social-font a[title="facebook"]::before {
   content: "\f09a";
 }
-.social-font a[title="linkedin"]::before {
-  content: "\f08c";
-}
 .copyright {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1874,10 +1873,10 @@ footer {
   }
 }
 .copyright a {
-  color: #fff;
+  color: #1dbbd6;
 }
 .copyright a:hover {
-  color: #2ca6cb;
+  color: #c0392b;
 }
 .article-gallery {
   background: #fafafa;
@@ -1901,4 +1900,15 @@ img
 .article-gallery-img .loaded {
   position: absolute;
   display: block;
+}
+#back-to-top {
+  position: fixed;
+  bottom: 5em;
+  right: 1em;
+  cursor: pointer;
+}
+@media tabletmax {
+  #back-to-top {
+    display: none !important;
+  }
 }
