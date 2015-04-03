@@ -3,21 +3,22 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 撸你丫的
 subtitle:
 description:
-author: John Doe
-language:
+author: luniard
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://luniard.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
+about_dir: about
 source_dir: source
 public_dir: public
 tag_dir: tags
@@ -62,10 +63,13 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: yaht
+theme: jacman
+stylus: 
+	compress: true
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/luniard/blog.git
+  repo: https://github.com/luniard/luniard.github.io.git
+  branch: master
