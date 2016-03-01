@@ -1,15 +1,12 @@
-title: "forget"
+title: "Django 搭建"
 date: 2015-05-12 15:06:30
 tags:
-- 忘记
 - Django
 
 categories: 日志
 
 ---
 
-说着要写写博客，折腾着折腾着就忘记了，甚至忘了这玩意怎么用了
-趁着打算研究下 Python + Django, 顺便记下环境的搭建
 
 #搭建
 

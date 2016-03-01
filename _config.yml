@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 撸你丫的
+title: Luniard
 subtitle:
 description:
 author: luniard
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: jacman
+theme: hexo-theme-bootstrap-blog
 stylus: 
 	compress: true
 
@@ -71,5 +71,5 @@ stylus:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/luniard/luniard.github.io.git
+  repo: git@github.com:luniard/luniard.github.io.git
   branch: master
