@@ -19,6 +19,7 @@ categories: JAVA
 为何大家都愿意去自己实现那些方法?当然如果你要存储数据到`HashMap`或是控制哈希冲突的话,自己实现`.equal()`和`.hashCode()`就有意义了,那`.compareTo()`和`.toString()`又有必要吗?
 
 这里介绍一种用在开源项目[Speedment](https://github.com/speedment/speedment)软件设计方法,这个设计的思想是对对象的运作是使用存贮在变量里的函数引用而不是去重写JAVA内购方法.这样做有几个好处.我们的POJOs会变得剪短和整洁,不用继承可以做到代码重用,并且可以灵活的在不同配置下切换
+<!--more-->
 
 # *普通代码*
 下面举例展示.新建一个典型的java类 Person,新建一组Person于`Set`中,然后按照名和姓进行排序(按名排序优先,再按姓排,以防出现同名)
