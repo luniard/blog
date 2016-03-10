@@ -8,7 +8,7 @@ categories: 日志
 ---
 
 
-#搭建
+# 搭建
 
 下载 [setuptools-7.0](https://pypi.python.org/packages/source/s/setuptools/setuptools-7.0.tar.gz) 解压
 ``` bash
